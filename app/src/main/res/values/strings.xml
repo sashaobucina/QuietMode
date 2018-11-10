@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QuietMode</string>
+    <string name="service_name">ProximityScanningService</string>
+    <string name="hello">Hello world!</string>
+    <string name="require_permission_msg">Grant permissions to toggle Do Not Disturb Mode</string>
+    <string name="require_permission_title">Grant Permissions</string>
+    <string name="accelerometer_not_present_msg">No accelerometer present!</string>
+    <string name="faceUpMsg">Device is face up</string>
+    <string name="faceDownMsg">Device is face down</string>
+    <string name="permission_grant">Grant</string>
+    <string name="permission_grant_btn_msg">Grant permissions</string>
+    <string name="permission_deny">Deny</string>
+    <string name="deactivated_str">Deactivated</string>
+    <string name="activated_str">Activated</string>
+    <string name="activate_message">Toggle proximity scanning: </string>
+    <string name="turn_off">Turn Off</string>
+    <string name="notification_message">Place phone face down to enable Do Not Disturb mode</string>
+</resources>

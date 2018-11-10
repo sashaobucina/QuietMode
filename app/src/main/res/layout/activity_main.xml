@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/deactivated_str"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:textColor="@android:color/holo_red_light"/>
+
+    <Button
+        android:id="@+id/permission_dialog_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/face"
+        android:text="@string/permission_grant_btn_msg"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Switch
+        android:id="@+id/scan_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/permission_dialog_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:theme="@style/SwitchTheme"
+        android:padding="6dp"
+        android:switchTextAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:scaleX="1.3"
+        android:scaleY="1.3"
+        android:checked="true"
+        android:visibility="gone"
+        android:text="@string/activate_message"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+</RelativeLayout>
